@@ -1,0 +1,9 @@
+kudoz:
+  name: "Kudoz"
+  tagline: "Tinder for Jobs"
+
+<% 1.upto(3) do |i| %>
+product_<%= i %>:
+    name: <%= Faker::Company.name %>
+    tagline: <%= Faker::Company.catch_phrase %>
+<% end %>
