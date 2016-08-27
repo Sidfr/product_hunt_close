@@ -10,7 +10,7 @@ class ProductTest < ActionDispatch::IntegrationTest
     fill_in "product_tagline", with: "Change your life: Learn to code"
 
     click_button 'Create Product'
-    save_and_open_screenshot
+    # save_and_open_screenshot
 
 
 
